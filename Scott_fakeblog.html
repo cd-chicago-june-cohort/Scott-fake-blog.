@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway|Spirax" rel="stylesheet">
+    <link rel="stylesheet" href="TeachertoTechie_Blog.CSS">
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title> Scott Tillman </title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" id="logo">
+            <h1>Teacher To Techie</h1>
+            <h2>Developer/ Creative/ Model</h2>
+        </a>
+        <nav id="features">
+            <ul id="features2">
+                <li><a href="index.html" class="selected">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <p>Sign Up for Notifications from Me</p>
+    <form action="process.php" method="post">
+        <p>Please Register</p>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+
+        <label id="email">Email:</label>
+        <input type="text" id="email" name="email">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+
+        <label for="pw_confirm">Password Confirmation:</label>
+        <input type="password" id="pw_confirm" name="password_confirmation">
+
+        <p>Select your gender:</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female">
+
+
+        <label for="date_of_birth">Date of Birth:</label>
+        <input type="date" id="date_of_birth" name="date_of birth">
+
+        <p>Say a few words about yourself:</p>
+        <textarea name="description"></textarea>
+
+        <input type="submit" value="Click here to register">
+    </form>
+    <div id="wrapper">
+        <section>
+            <img src="Scott.jpg" alt="about me" class="profile_pic">
+            <h3>My Story</h3>
+            <p>Hi My name is Scott! I've been a teacher the last four years.</p>
+        </section>
+        <footer>
+            <p>&copy; 2017 Scott Tillman.</p>
+            <li>
+                <a href="https://www.instagram.com/?hl=en"><img src="Instragram_Logo.jpg" alt="Instagram" class="socialclass"></a>
+            </li>
+        </footer>
+    </div>
+</body>
+
+</html>
